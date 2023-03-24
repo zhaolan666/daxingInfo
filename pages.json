@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/tabbar/history/history",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabbar/report/report",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/business1/housePropertyEvaluation",
+			"style": {
+				"navigationBarTitleText": "房产评估",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business1/transferCompany",
+			"style": {
+				"navigationBarTitleText": "过户公司",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business1/matEndowment",
+			"style": {
+				"navigationBarTitleText": "过桥垫资",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business1/expeditedCertification",
+			"style": {
+				"navigationBarTitleText": "他证加急",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business2/housePropertyMortgage",
+			"style": {
+				"navigationBarTitleText": "房产抵押",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business2/unsecuredLoan",
+			"style": {
+				"navigationBarTitleText": "信用贷款",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business2/vehicleMortgage",
+			"style": {
+				"navigationBarTitleText": "车辆抵押",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business2/payTax",
+			"style": {
+				"navigationBarTitleText": "缴税开票",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/business2/calculator",
+			"style": {
+				"navigationBarTitleText": "计算器",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"tabBar": {
+		"selectedColor": "#0EC7AB",
+		"color": "#bfbfbf",
+		"list": [{
+				"iconPath": "./static/images/tabar/home.png",
+				"selectedIconPath": "/static/images/tabar/home-1.png",
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "./static/images/tabar/history.png",
+				"selectedIconPath": "/static/images/tabar/history-1.png",
+				"pagePath": "pages/tabbar/history/history",
+				"text": "历史查询"
+			}, {
+				"iconPath": "./static/images/tabar/report.png",
+				"selectedIconPath": "/static/images/tabar/report-1.png",
+				"pagePath": "pages/tabbar/report/report",
+				"text": "意见反馈"
+			}, {
+				"iconPath": "./static/images/tabar/mine.png",
+				"selectedIconPath": "/static/images/tabar/mine-1.png",
+				"pagePath": "pages/tabbar/mine/mine",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

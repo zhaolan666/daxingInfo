@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "sence": "^1.0.65"
+  }
+}
