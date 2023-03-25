@@ -13,6 +13,7 @@
  */
 
 @import '@/uni_modules/uview-ui/theme.scss';
+@import '@/assets/font/iconfont.css';
 
 /* 颜色变量 */
 
@@ -21,8 +22,8 @@ $uni-color-primary: #007aff;
 $uni-color-success: #4cd964;
 $uni-color-warning: #f0ad4e;
 $uni-color-error: #dd524d;
-$main-color: "#0EC7AB";
-$sub-color: "#ddd";
+$main-color: #0EC7AB;
+$sub-color: #ddd;
 
 
 /* 文字基本颜色 */

@@ -25,6 +25,7 @@
 		background-color: #f5f5f5;
 	}
 
+
 	.c-28 {
 		color: #282828;
 	}

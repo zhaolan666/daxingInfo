@@ -6,6 +6,7 @@ App.mpType = 'app'
 
 import sence from 'sence'
 
+
 import uView from '@/uni_modules/uview-ui'
 Vue.use(uView)
 
